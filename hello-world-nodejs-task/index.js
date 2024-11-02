@@ -1,3 +1,5 @@
+const axios = require('axios');
+
 const serviceURL = process.env.SVC_URL;
 const apiKey =  process.env.API_KEY;
 

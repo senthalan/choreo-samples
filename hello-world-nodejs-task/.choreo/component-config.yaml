@@ -3,8 +3,8 @@ kind: ComponentConfig
 spec:
   outbound:
     serviceReferences:
-    - name: choreo:///senthatest/xuys/zqtsxi/a5783/v1/PUBLIC
-      connectionConfig: 01ef9eae-402d-18d8-90c8-766d31062469
+    - name: choreo:///senthatest/xuys/zqtsxi/a5783/v1/ORGANIZATION
+      connectionConfig: 01ef9eae-a1ed-1f78-9d4d-a99df3725491
       env:
       - from: ServiceURL
         to: SVC_URL

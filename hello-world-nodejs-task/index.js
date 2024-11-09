@@ -9,7 +9,7 @@ console.log(apiKey);
 
 async function fetchData() {
   try {
-    const response = await axios.get(serviceURL + '/greeting', {
+    const response = await axios.get(serviceURL + '/books', {
       headers: {
         'Choreo-API-Key': apiKey
       }
